@@ -1,0 +1,125 @@
+/* poppins font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.header_only{
+    background: #264653;
+}
+.part_1_section p{
+    color: #E0E0E0;
+    font-size: 12px;
+    
+}
+.part_1_section h1{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.part_1_btn, .part_6_btn{
+    background: #E76F51;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border:0;
+    border-radius: 5px;
+}
+.part_6_btn:hover{
+    transform: scale(1.25);
+    transition: transform 1s ease-in;
+}
+.part_1_section img{
+    width: 400px;
+}
+.part_2_Fetured h1, .part_3_clients h1, .part_4_question h1, .part_5_contact h1, .part_6_services h1{
+    color: #000000;
+    font-weight: 600;
+    font-size: 35px;
+}
+.part_2_Fetured p{
+    color: #E76F51;
+    font-size: 12px;
+    font-weight: 600;
+}
+.part_2_Fetured #feature_img_one{
+    filter: grayscale(100%);
+}
+.part_2_Fetured #feature_img_three{
+    filter: grayscale(100%);
+}
+.part_3_clients h1 span, .part_4_question h1 span, .part_5_contact h1 span, .part_6_services h1 span{
+    color: #E76F51;
+}
+.part_3_clients p{
+    color:#6C6C6C;
+    font-size: 14px;
+}
+
+.clients img{
+    width: 130px;
+}
+#clients_3 img{
+    width: 130px;
+    height: 130px;
+    border: 1px;
+    border-radius: 45%;
+}
+.part_3_clients i{
+    color:#E77C40;
+}
+.part_3_clients .title_name{
+    color: #23A6F0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.part_3_clients .footer_title{
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
+}
+.part_4_question img{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+.part_4_question .content{
+    color: #7E848C;
+    font-size: 14px;
+}
+
+.part_5_contact input{
+    padding: 5px;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-right: solid purple 5px;
+    border-left: solid purple 5px;
+    border-radius: 10px;
+    color: purple;
+
+}
+
+.part_6_services #bg_added{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/bike-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border:0;
+    border-radius: 10px;
+    
+}
+.part_6_services p{
+    color:antiquewhite;
+    font-size: 12px;
+}
+.part_6_services .part_6_title{
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
